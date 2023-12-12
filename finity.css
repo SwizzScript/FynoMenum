@@ -1,0 +1,1167 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body,
+html {
+  background-color: rgb(255, 250, 228);
+  color: #1e1e26;
+  text-transform: capitalize;
+  width: 100%;
+  height: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 1rem;
+  right: 2rem;
+  z-index: 99;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 0, 0, 0.19);
+  background-color: #1e1e26;
+  color: white;
+  cursor: pointer;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+section {
+  padding: 0.6rem;
+}
+
+/* nav start-------------------------------------------- */
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 1.3rem;
+  cursor: pointer;
+}
+
+.navlabel {
+  position: relative;
+  font-size: 1.8rem;
+}
+
+.navlabel::before {
+  content: "f";
+  position: absolute;
+  left: -1.3rem;
+  background-color: rgb(58, 127, 218);
+  border: 1px solid rgb(58, 127, 218);
+  padding: 1px;
+  border-radius: 3px;
+  color: #fff;
+}
+
+/* fixing rems and unit------------------------------` */
+
+.navUl {
+  display: flex;
+  gap: 1.5rem;
+  transition: 0.5s ease-in-out;
+}
+
+.navUl li a {
+  color: #000;
+}
+
+li a:hover {
+  color: rgb(58, 127, 218);
+}
+
+.bttni {
+  border: none;
+  outline: none;
+  padding: 0.5rem;
+  background-color: rgb(58, 127, 218);
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: 0.5s;
+  box-shadow: 0px 0px 0px rgba(58, 127, 218, 0.2);
+}
+
+.bttni a {
+  color: #000;
+}
+
+.bttni:hover {
+  background-color: rgba(58, 127, 218, 0.2);
+  box-shadow: 2px 2px 5px rgba(58, 127, 218, 20);
+  color: rgb(58, 127, 218);
+  font-weight: bold;
+}
+
+#toggler,
+.IconLabel {
+  display: none;
+  cursor: pointer;
+}
+
+/* nav done ---------------------------------------------------------- */
+
+.firstGen {
+  width: 100%;
+}
+
+.firstGen_Container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 0.7rem;
+}
+
+.side-i_container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+h3 {
+  font-size: 2.8rem;
+}
+
+p {
+  line-height: 0.7rem;
+}
+
+.bttnvi {
+  border: none;
+  outline: none;
+  padding: 0.7rem;
+  width: 25%;
+  background-color: rgb(58, 127, 218);
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: 0.5s;
+  box-shadow: 0px 0px 0px rgba(58, 127, 218, 0.2);
+}
+
+.bttnvi a {
+  color: #000;
+}
+
+.bttnvi:hover {
+  background-color: rgba(58, 127, 218, 0.2);
+  color: rgb(58, 127, 218);
+  font-weight: bold;
+  box-shadow: 2px 2px 5px rgba(58, 127, 218, 20);
+}
+
+.classpLink:hover {
+  text-decoration: underline;
+}
+
+.side-ii {
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.side-ii:hover {
+  transform: scale(1.03);
+}
+
+/* first gen done-------------------------------------- */
+
+.second {
+  background-color: rgba(255, 255, 255, 0.19);
+}
+.secondGen {
+  width: 100%;
+}
+
+.secondGen_Container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 4rem;
+}
+
+#class-V {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  gap: 4rem;
+  flex-wrap: wrap;
+  cursor: pointer;
+  transition: 0.2s linear;
+  box-shadow: 0px 0px 0px 0px;
+}
+
+#class-V:hover {
+  box-shadow: 1px 1px 3px 1.5px;
+  transform: scale(1.02);
+}
+
+.class-V_container {
+  display: flex;
+  gap: 3rem;
+}
+
+.partv h4 {
+  font-size: 7rem;
+}
+.partv span {
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+.partv p {
+  font-size: 0.7rem;
+  font-weight: bold;
+  color: rgb(58, 127, 218);
+}
+
+.partvi h4 {
+  font-size: 7rem;
+}
+.partvi span {
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+.partvi p {
+  font-size: 0.7rem;
+  font-weight: bold;
+  color: rgb(58, 127, 218);
+}
+
+#classVi {
+  width: 40%;
+}
+
+.classVi_container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#classVi h5 {
+  font-size: 1.8rem;
+}
+
+#classVi .p {
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.bell {
+  display: flex;
+  gap: 1rem;
+}
+
+.bodd {
+  width: 30%;
+}
+
+img.bodd {
+  cursor: pointer;
+  padding: 0.5rem;
+  transition: 0.5s ease-in-out;
+}
+
+img.bodd:hover {
+  transform: scale(1.02);
+  background-color: rgba(58, 127, 218, 0.2);
+  box-shadow: 2px 2px 5px rgba(58, 127, 218, 20);
+  border-radius: 0.5rem;
+}
+
+hr {
+  background: linear-gradient(
+    rgb(255, 250, 228),
+    rgb(58, 127, 218),
+    rgba(58, 127, 218, 0.2)
+  );
+  height: 0.3rem;
+}
+/* second gen-------------------------------------- */
+
+.ThirdGen {
+  width: 100%;
+}
+
+.Third_h1Container {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+.Third_h1Container h1 {
+  font-size: 2.8rem;
+}
+
+.ThirdGen_Container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 3rem;
+  transform: translateY(20px);
+}
+
+#phase-i {
+  width: 50%;
+}
+
+.body_phase-i {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.int_i {
+  display: flex;
+  gap: 1rem;
+}
+
+.fa-solid {
+  color: rgb(58, 127, 218);
+  display: flex;
+  align-items: center;
+}
+
+.fa-calendar-check,
+.fa-user {
+  font-size: 40px;
+}
+
+.fa-money-check-dollar {
+  font-size: 30px;
+}
+
+.fa-handshake {
+  font-size: 30px;
+}
+
+.int-h6 {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.int-p {
+  font-size: 0.7rem;
+}
+
+.IMG-II {
+  width: 100%;
+}
+
+#phase-ii {
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+#phase-ii:hover {
+  transform: scale(1.1);
+}
+/* thirdGen end ----------------------------------------- */
+.fourthGen {
+  width: 100%;
+  transform: translateY(2rem);
+}
+
+.fourthGen_h1Container {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.fourthGen_h1Container h1 {
+  font-size: 2.8rem;
+}
+
+.fourthGen_Contianer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  transform: translateY(20px);
+}
+
+.img_unit-i {
+  width: 20%;
+}
+
+#unit-ii {
+  width: 55%;
+}
+
+.body_unit-ii {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+}
+.unitx {
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1rem;
+}
+
+.unitxx {
+  font-size: 0.7rem;
+}
+
+.titlex {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+/* fourth gen  end -------------------------- */
+
+.fifthGen {
+  width: 100%;
+  transform: translateY(3rem);
+}
+
+.fifthGen_h1Container {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.fifthGen_h1Container h1 {
+  font-size: 2.8rem;
+}
+
+.box:hover {
+  box-shadow: 1px 1px 3px 1.5px;
+  transform: scale(1.02);
+}
+
+.fifth_Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 23.6rem;
+  padding: 20px;
+  text-align: center;
+  transition: 0.5s ease-out;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: #1e1e26;
+  color: aliceblue;
+  box-shadow: 2px 10px 12px rgba(0, 0, 0, 0.5);
+  margin: 1rem 0.7rem;
+}
+
+.body-box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.body-box .imgel {
+  width: 40%;
+}
+
+#imgel {
+  width: 100%;
+  height: 60%;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid rgba(58, 127, 218, 0.2);
+}
+
+.body-box,
+.content h2 {
+  font-size: 1.5rem;
+}
+.box .content p {
+  font-size: 0.5rem;
+}
+
+/* ------------------------------ */
+/* start from here */
+
+.sixthGen {
+  width: 100%;
+  transform: translateY(6rem);
+}
+.sixthGen_Container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.sixGen-content {
+  width: 50%;
+}
+
+.body-sixth {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.body-sixth h2 {
+  font-size: 2.8rem;
+}
+
+.body-sixth p {
+  line-height: 1rem;
+}
+
+/* work later */
+
+.footer {
+  width: 100%;
+  transform: translateY(6rem);
+  background-color: #1e1e26;
+}
+
+.footer-Container {
+  display: flex;
+  color: #fff;
+  justify-content: space-evenly;
+  gap: 5rem;
+  font-size: 0.8rem;
+  padding: 2rem;
+}
+
+.footy-i a {
+  color: rgba(255, 255, 255, 0.19);
+}
+.footy-i a:hover {
+  text-decoration: underline;
+  color: rgb(58, 127, 218);
+}
+
+.body-footy-i {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.body-footy-i h5 {
+  font-size: 1rem;
+}
+
+.body_website-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.body_website-info {
+  width: 100%;
+}
+
+#line {
+  color: #fff;
+}
+
+/*-------------------------------- responsiveness ------------------------------------ */
+
+@media screen and (max-width: 600px) {
+  .bttni {
+    display: none;
+  }
+  #side-i {
+    width: 100%;
+  }
+
+  .side-i_container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+
+  .side-i_container h3 {
+    font-size: 2.5rem;
+    line-height: 2.8rem;
+  }
+
+  .side-i_container p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .menu {
+    width: 100%;
+    max-height: 0;
+    overflow: hidden;
+  }
+  .IconLabel {
+    display: inline-flex;
+  }
+  #toggler:checked ~ .menu {
+    max-height: 100%;
+    transform: translateY(1rem);
+  }
+  .navUl {
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem;
+  }
+
+  .partv {
+    width: 100%;
+  }
+
+  .partvi {
+    width: 100%;
+  }
+
+  #classVi {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .partvi h4 {
+    font-size: 5rem;
+  }
+  .partv h4 {
+    font-size: 5rem;
+  }
+
+  .partvi .vpiv {
+    font-size: 0.6rem;
+  }
+
+  #classVi .bodei .h5 {
+    font-size: 1.8rem;
+  }
+
+  .Third_h1Container h1 {
+    font-size: 2.5rem;
+    line-height: 2.8rem;
+  }
+
+  #phase-i {
+    width: 100%;
+  }
+
+  .body_phase-i {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    justify-content: center;
+  }
+
+  .first_cag {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.7rem;
+    justify-content: space-evenly;
+  }
+  .sec_cag {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.7rem;
+    justify-content: space-evenly;
+  }
+
+  .body_phase-i {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .int_i {
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  .fa-calendar-check,
+  .fa-user {
+    font-size: 25px;
+  }
+
+  .fa-money-check-dollar {
+    font-size: 20px;
+  }
+
+  .fa-handshake {
+    font-size: 20px;
+  }
+
+  .int-h6 {
+    font-weight: bold;
+    font-size: 0.8rem;
+  }
+
+  .int-p {
+    font-size: 0.6rem;
+  }
+
+  .fourthGen_h1Container h1 {
+    font-size: 2.5rem;
+    line-height: 2.8rem;
+  }
+  #unit-ii {
+    width: 100%;
+  }
+
+  .unitx {
+    line-height: 1.5rem;
+  }
+
+  .unitxx {
+    font-size: 0.6rem;
+  }
+
+  /* --------------- */
+
+  .fifthGen_h1Container h1 {
+    font-size: 2.5rem;
+    line-height: 2.8rem;
+  }
+
+  .card-item {
+    width: 100%;
+  }
+
+  .bttn-area {
+    position: absolute;
+    top: 33%;
+    right: -2%;
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+  }
+
+  .box {
+    width: 20rem;
+    text-align: center;
+    transition: 0.5s ease-out;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #1e1e26;
+    color: aliceblue;
+    box-shadow: 2px 10px 12px rgba(0, 0, 0, 0.5);
+    margin: 1rem 0.7rem;
+  }
+
+  .body-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .body-box .imgel {
+    width: 30%;
+  }
+
+  #imgel {
+    width: 100%;
+    height: 60%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid cadetblue;
+  }
+
+  .body-box,
+  .content h2 {
+    font-size: 1.5rem;
+  }
+  .box .content p {
+    font-size: 0.5rem;
+  }
+
+  .sixthGen_Container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .sixthGen-content h2 {
+    font-size: 2.5rem;
+  }
+
+  .sixGen-content {
+    width: 100%;
+  }
+
+  .footer-Container {
+    display: flex;
+    color: #fff;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 5rem;
+    font-size: 0.8rem;
+    padding: 2rem;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .bttni {
+    display: none;
+  }
+  #side-i {
+    width: 100%;
+  }
+
+  .side-i_container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+
+  .side-i_container h3 {
+    font-size: 2.5rem;
+    line-height: 2.8rem;
+  }
+
+  .side-i_container p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .menu {
+    width: 100%;
+    max-height: 0;
+    overflow: hidden;
+  }
+  .IconLabel {
+    display: inline-flex;
+  }
+  #toggler:checked ~ .menu {
+    max-height: 100%;
+    transform: translateY(1rem);
+  }
+  .navUl {
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem;
+  }
+
+  .partv {
+    width: 100%;
+  }
+
+  .partvi {
+    width: 100%;
+  }
+
+  #classVi {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .partvi h4 {
+    font-size: 5rem;
+  }
+  .partv h4 {
+    font-size: 5rem;
+  }
+
+  .partvi .vpiv {
+    font-size: 0.6rem;
+  }
+
+  #classVi .bodei .h5 {
+    font-size: 1.8rem;
+  }
+
+  .Third_h1Container h1 {
+    font-size: 2.5rem;
+    line-height: 2.8rem;
+  }
+
+  #phase-i {
+    width: 100%;
+  }
+
+  .body_phase-i {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    justify-content: center;
+  }
+
+  .first_cag {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.7rem;
+    justify-content: space-evenly;
+  }
+  .sec_cag {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.7rem;
+    justify-content: space-evenly;
+  }
+
+  .body_phase-i {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .int_i {
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  .fa-calendar-check,
+  .fa-user {
+    font-size: 25px;
+  }
+
+  .fa-money-check-dollar {
+    font-size: 20px;
+  }
+
+  .fa-handshake {
+    font-size: 20px;
+  }
+
+  .int-h6 {
+    font-weight: bold;
+    font-size: 0.8rem;
+  }
+
+  .int-p {
+    font-size: 0.6rem;
+  }
+
+  .fourthGen_h1Container h1 {
+    font-size: 2.5rem;
+    line-height: 2.8rem;
+  }
+  #unit-ii {
+    width: 100%;
+  }
+
+  .unitx {
+    line-height: 1.5rem;
+  }
+
+  .unitxx {
+    font-size: 0.6rem;
+  }
+
+  /* --------------- */
+
+  .fifthGen_h1Container h1 {
+    font-size: 2.5rem;
+    line-height: 2.8rem;
+  }
+
+  .card-item {
+    width: 100%;
+  }
+
+  .bttn-area {
+    position: absolute;
+    top: 33%;
+    right: -2%;
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+  }
+
+  .box {
+    width: 20rem;
+    text-align: center;
+    transition: 0.5s ease-out;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #1e1e26;
+    color: aliceblue;
+    box-shadow: 2px 10px 12px rgba(0, 0, 0, 0.5);
+    margin: 1rem 0.7rem;
+  }
+
+  .body-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .body-box .imgel {
+    width: 30%;
+  }
+
+  #imgel {
+    width: 100%;
+    height: 60%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid cadetblue;
+  }
+
+  .body-box,
+  .content h2 {
+    font-size: 1.5rem;
+  }
+  .box .content p {
+    font-size: 0.5rem;
+  }
+
+  .sixthGen_Container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .sixthGen-content h2 {
+    font-size: 2.5rem;
+  }
+
+  .sixGen-content {
+    width: 100%;
+  }
+
+  .footer-Container {
+    display: flex;
+    color: #fff;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 5rem;
+    font-size: 0.8rem;
+    padding: 2rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .box {
+    width: 18rem;
+    text-align: center;
+    transition: 0.5s ease-out;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #1e1e26;
+    color: aliceblue;
+    box-shadow: 2px 10px 12px rgba(0, 0, 0, 0.5);
+    margin: 1rem 0.7rem;
+  }
+
+  .bttnvi {
+    border: none;
+    outline: none;
+    padding: 0.9rem;
+    width: 50%;
+    background-color: rgb(58, 127, 218);
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: 0.5s;
+    box-shadow: 0px 0px 0px rgba(58, 127, 218, 0.2);
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .box {
+    width: 13rem;
+    text-align: center;
+    transition: 0.5s ease-out;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #1e1e26;
+    color: aliceblue;
+    box-shadow: 2px 10px 12px rgba(0, 0, 0, 0.5);
+    margin: 1rem 0.7rem;
+  }
+
+  .bttnvi {
+    border: none;
+    outline: none;
+    padding: 0.9rem;
+    width: 50%;
+    background-color: rgb(58, 127, 218);
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: 0.5s;
+    box-shadow: 0px 0px 0px rgba(58, 127, 218, 0.2);
+  }
+
+  .partv h4 {
+    font-size: 3rem;
+  }
+  .partv span {
+    font-size: 0.5rem;
+    font-weight: bold;
+  }
+  .partv p {
+    font-size: 0.5rem;
+    font-weight: bold;
+    color: rgb(58, 127, 218);
+  }
+
+  .partvi h4 {
+    font-size: 3rem;
+  }
+  .partvi span {
+    font-size: 0.5rem;
+    font-weight: bold;
+  }
+  .partvi p {
+    font-size: 0.5rem;
+    font-weight: bold;
+    color: rgb(58, 127, 218);
+  }
+}
